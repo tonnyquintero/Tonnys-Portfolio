@@ -1,0 +1,35 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.cta {
+    margin-top: 5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: relative;
+    left: 0;
+    bottom: 3rem;
+} 
+
+.header_socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
