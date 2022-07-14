@@ -1,5 +1,17 @@
 import React from 'react';
-import {BsPatchCheckFill} from 'react-icons/bs'
+import {ImHtmlFive} from 'react-icons/im';
+import {ImCss3} from 'react-icons/im';
+import {SiJavascript} from 'react-icons/si';
+import {SiTailwindcss} from 'react-icons/si';
+import {RiReactjsLine} from 'react-icons/ri';
+import {IoLogoNodejs} from 'react-icons/io';
+import {TbBrandNextjs} from 'react-icons/tb';
+import {SiMysql} from 'react-icons/si';
+import {FaDocker} from 'react-icons/fa';
+
+
+
+
 import './experience.css';
 
 const Experience = () => {
@@ -13,35 +25,35 @@ const Experience = () => {
           <h3>Frontend Technologies</h3>
           <div className="experience_content">
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon' />
+              <ImHtmlFive className='experience_details-icon' />
               <div>
                 <h4>HTML</h4>
                 <small className='text-light'>Advanced</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon' />
+              <ImCss3 className='experience_details-icon' />
               <div>
                 <h4>CSS</h4>
                 <small className='text-light'>Advanced</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon' />
+              <SiJavascript className='experience_details-icon' />
               <div>
                 <h4>JAVASCRIPT</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon' />
+              <SiTailwindcss className='experience_details-icon' />
               <div>
                 <h4>TAILWIND</h4>
                 <small className='text-light'>Advanced</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon' />
+              <RiReactjsLine className='experience_details-icon' />
               <div>
                 <h4>REACT</h4>
                 <small className='text-light'>Medium</small>
@@ -55,28 +67,28 @@ const Experience = () => {
           <h3>Backend Technologies</h3>
           <div className="experience_content">
           <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon' />
+              <IoLogoNodejs className='experience_details-icon' />
               <div>
                 <h4>NODEJS</h4>
                 <small className='text-light'>Advanced</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon' />
+              <TbBrandNextjs className='experience_details-icon' />
               <div>
                 <h4>NEXTJS</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon' />
+              <SiMysql className='experience_details-icon' />
               <div>
                 <h4>MYSQL</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon' />
+              <FaDocker className='experience_details-icon' />
               <div>
                 <h4>DOCKER</h4>
                 <small className='text-light'>Beginer</small>
