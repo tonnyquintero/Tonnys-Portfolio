@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import {FaGithub} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi';
