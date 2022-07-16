@@ -6,9 +6,11 @@ import {AiFillTwitterSquare} from 'react-icons/ai';
 const HeaderSocials = () => {
   return (
     <div className='header_socials'>
-        <a href='https://linkedin.com' target='blank'><BsLinkedin /></a>
-        <a href='https://github.com' target='blank'><FaGithub /></a>
-        <a href='https://twitter.com' target='blank'><AiFillTwitterSquare /></a>
+        <ul className='social_icons'>
+          <li><a className='fa' href='https://www.linkedin.com/in/anthony-quintero-216767182/' target='blank'><BsLinkedin size={40} /></a></li>
+          <li><a className='fa' href='https://github.com/tonnyquintero' target='blank'><FaGithub size={40} /></a></li>
+          <li><a className='fa' href='https://twitter.com/tonny_187' target='blank'><AiFillTwitterSquare size={45} /></a></li>
+        </ul>
     </div>
   )
 }

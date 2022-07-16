@@ -30,16 +30,16 @@ const data = [
   {
     image: solidity,
     title: 'El futuro de Solidity',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis ea aliquid tempora quis vitae magnam doloribus. Dolor, tempora iure dicta soluta eius eum consequatur reiciendis nulla, molestiae recusandae exercitationem!',
-    link: 'https://tonnys-lab.blogspot.com/2022/07/la-despedida-de-internet-explorer.html'
+    review: '  Para entender lo que es Solidity, primero tienes que entender qué son los contratos inteligentes o smart contracts. Se trata de un concepto de contrato que se empezó a debatir en los 90, pero que no ha sido hasta la llegada de las criptomonedas...',
+    link: 'https://tonnys-lab.blogspot.com/2022/07/el-futuro-de-solidity.html'
   }
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Blogs</h5>
-      <h2>Entrys</h2>
+      <h5>Posts</h5>
+      <h2>Blog</h2>
 
       <Swiper className="container testimonial_container"
         modules={[ Navigation, Pagination ]}
@@ -72,4 +72,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default Testimonials;

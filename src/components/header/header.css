@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
@@ -34,13 +34,98 @@ header {
     background: var(--color-primary);
 }
 
+.social_icons li a {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    color: #555;
+    background: #fff;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    box-shadow: -20px 20px 10px rgb(0, 0, 0 / 50%);
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+}
+
+.social_icons li a::before {
+    content: "";
+    position: absolute;
+    top: 19px;
+    left: -34px;
+    height: 100%;
+    width: 35px;
+    background: #b2b2b2;
+    transition: 0.5s;
+
+}
+
+.social_icons li a::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -18px;
+    height: 20px;
+    width: 100%;
+    background: #e5e5e5;
+    transition: 0.5s;
+    transform: skew(120deg)  rotate(0deg);
+}
+
+.social_icons li a:hover {
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.social_icons li a:hover .fa {
+    color: #ffff;
+}
+
+.social_icons li:hover:nth-child(1) a {
+    background-color: #0e76a8;
+}
+
+.social_icons li:hover:nth-child(1) a::before {
+    background-color: #0e76a8;
+}
+
+.social_icons li:hover:nth-child(1) a::after {
+    background-color: #0e76a8;
+}
+
+.social_icons li:hover:nth-child(2) a {
+    background-color: #da0825;
+}
+
+.social_icons li:hover:nth-child(2) a::before {
+    background-color: #da0825;
+}
+
+.social_icons li:hover:nth-child(2) a::after {
+    background-color: #da0825;
+}
+
+.social_icons li:hover:nth-child(3) a {
+    background-color: #00acee;
+}
+
+.social_icons li:hover:nth-child(3) a::before {
+    background-color: #00acee;
+}
+
+.social_icons li:hover:nth-child(3) a::after {
+    background-color: #00acee;
+}
+
 .me {
-    background: linear-gradient(darkgray, transparent);
+    background: linear-gradient(#343a40, transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 7rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 0rem 0rem 1.5rem 0rem;
@@ -70,14 +155,18 @@ header {
     header {
       height: 100vh;  
     }
-    .header_socials, .scroll_down {
+    .scroll_down {
         display: none;
+    }
+    .header_socials {
+        left: -7px;
+        z-index: 1;
     }
     .me {
         padding: 1rem 0 0;
         left: calc(50% - 10rem);
         width: 20rem;
-        margin-top: 5rem;
+        margin-top: 8rem;
     }
 }
 

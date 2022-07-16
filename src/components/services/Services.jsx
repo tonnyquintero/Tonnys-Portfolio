@@ -6,31 +6,8 @@ const Services = () => {
   return (
     <section id='services'>
       <div className="container services_container">
-        <article className='service'>
-          <div className="service_head">
-            <h3>UI/UX Design</h3>
-          </div>
 
-          <ul className='service_list'>
-            <li>
-              <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-          </ul>
-        </article>
-        <article className='service'>
+      <article className='service'>
           <div className="service_head">
             <h3>Web Development</h3>
           </div>
@@ -38,22 +15,24 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Web sites Creation</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>SoftWare App with database</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Whatsapp Busines Api Connection</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Single Page Aplication with Html Css and JS</p>
             </li>
           </ul>
         </article>
+
+       
         <article className='service'>
           <div className="service_head">
             <h3>Content Managment</h3>
@@ -62,19 +41,44 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Social Media Managment</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Blog Creation</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Google adds</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Seo Tech service</p>
+            </li>
+          </ul>
+        </article>
+
+        <article className='service'>
+          <div className="service_head">
+            <h3>Soft Skills</h3>
+          </div>
+
+          <ul className='service_list'>
+            <li>
+              <BiCheck className='service_list-icon' />
+              <p>Excel</p>
+            </li>
+            <li>
+              <BiCheck className='service_list-icon' />
+              <p>Photoshop</p>
+            </li>
+            <li>
+              <BiCheck className='service_list-icon' />
+              <p>Three js</p>
+            </li>
+            <li>
+              <BiCheck className='service_list-icon' />
+              <p>Illustrator</p>
             </li>
           </ul>
         </article>

@@ -32,11 +32,11 @@ const About = () => {
           <article className="about_card">
             <VscFolderLibrary className='about_icon'/>
             <h5>Projects</h5>
-            <small>30+ Completed Projects</small>
+            <small>15+ Completed Projects</small>
           </article>
         </div>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore magnam error et deserunt harum? Optio quaerat officiis, earum enim impedit, possimus vero repudiandae similique non id in, sit et.
+        Venezuelan developer, exercise books and learning are some of my hobbies. Activist in favor of technology as therapy for the world.
         </p>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
       </div>
