@@ -4,12 +4,16 @@ import AboutPic from '../../assets/thinkb-removebg.png';
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+
+  const [t, i18n] = useTranslation("globals");
+
   return (
     <section id='about'>
-      <h5>Get to Know</h5>
-      <h2>AboutMe</h2>
+      <h5>{t('about.getToKnow')}</h5>
+      <h2>{t('about.aboutMe')}</h2>
 
     <div className='container about_container'>
       <div className="about_me">
@@ -21,24 +25,24 @@ const About = () => {
         <div className="about_cards">
           <article className="about_card">
             <FaAward className='about_icon'/>
-            <h5>Experience</h5>
-            <small>3+ Years Developing</small>
+            <h5>{t('about.experience')}</h5>
+            <small>{t('about.years')}</small>
           </article>
           <article className="about_card">
             <FiUsers className='about_icon'/>
-            <h5>Clients</h5>
-            <small>10+ Clients</small>
+            <h5>{t('about.clients')}</h5>
+            <small>{t('about.clientsNumber')}</small>
           </article>
           <article className="about_card">
             <VscFolderLibrary className='about_icon'/>
-            <h5>Projects</h5>
-            <small>15+ Completed Projects</small>
+            <h5>{t('about.projects')}</h5>
+            <small>{t('about.ProjectsNumber')}</small>
           </article>
         </div>
         <p>
-        Venezuelan developer, exercise books and learning are some of my hobbies. Activist in favor of technology as therapy for the world.
+          {t('about.description')}
         </p>
-        <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+        <a href='#contact' className='btn btn-primary'>{t('about.letsTalk')}</a>
       </div>
     </div>
     </section>

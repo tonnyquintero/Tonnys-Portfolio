@@ -94,6 +94,36 @@ a:hover {
     transition: var(--transition);
 }
 
+.containerFlag {
+
+
+    position: fixed;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    z-index: 1;
+    left: 89%;
+    padding-top: 1rem;
+}
+
+.btn-bg {
+    background: none;
+    cursor: pointer;
+    transition: var(--transition);
+    border-radius: 40px;
+}
+
+.btn-flag {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.btn-bg:hover {
+    border: 3px solid white;
+}
+
 .btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
@@ -126,6 +156,10 @@ img {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
+    }
+
+    .containerFlag {
+        left: 75%;
     }
 
     section > h2 {

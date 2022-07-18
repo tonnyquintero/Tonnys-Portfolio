@@ -6,6 +6,8 @@ import Task from '../../assets/taskMachine.png';
 import Travel from '../../assets/tonnysTravel.png';
 import Toscana from '../../assets/toscana.png';
 import restaurante from '../../assets/myRestaurante.png';
+import { useTranslation } from 'react-i18next';
+
 
 
 
@@ -57,10 +59,14 @@ const data = [
 
 
 const Portfolio = () => {
+
+  const [t, i18n] = useTranslation("globals");
+
+
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>{t("portfolio.work")}</h5>
+      <h2>{t("portfolio.title")}</h2>
 
       <div className="container portfolio_container">
 
@@ -74,7 +80,7 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <div className="portfolio_item-cta">
                 <a href={gitHub} className='btn' target='_blank' rel='noreferrer'>Git Hub</a>
-                <a href={deploy} className='btn btn-primary' target='_blank' rel='noreferrer'>Visit</a>
+                <a href={deploy} className='btn btn-primary' target='_blank' rel='noreferrer'>{t("portfolio.visit")}</a>
               </div>
               </article>
             )
