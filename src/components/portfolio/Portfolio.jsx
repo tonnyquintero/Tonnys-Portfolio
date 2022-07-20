@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import './portfolio.css';
 import Store from '../../assets/nextStore.png';

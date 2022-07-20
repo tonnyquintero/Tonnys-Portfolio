@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import {ImHtmlFive} from 'react-icons/im';
 import {ImCss3} from 'react-icons/im';

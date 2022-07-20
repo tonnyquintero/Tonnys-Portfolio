@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, {useRef} from 'react';
 import {MdOutlineEmail} from 'react-icons/md';
 import {RiMessengerLine} from 'react-icons/ri';

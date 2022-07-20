@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import './about.css';
 import AboutPic from '../../assets/thinkb-removebg.png';

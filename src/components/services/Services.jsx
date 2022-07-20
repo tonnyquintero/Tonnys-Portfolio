@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import {BiCheck} from 'react-icons/bi'
 import './services.css';
