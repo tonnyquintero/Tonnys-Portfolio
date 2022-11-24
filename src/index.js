@@ -1,4 +1,5 @@
 import React from 'react';
+import { DarkModeProvider } from '../src/context/ThemeContext'
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
@@ -23,7 +24,9 @@ i18next.init({
 
 ReactDOM.render(
     <I18nextProvider i18n={i18next}>
-        <App/>
+        <DarkModeProvider>
+            <App/>
+        </DarkModeProvider>
     </I18nextProvider>, 
     document.querySelector("#root")
         );

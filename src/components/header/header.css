@@ -10,6 +10,17 @@ header {
     position: relative;
 }
 
+.claro {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    color: blueviolet;
+}
+
+.text-light-claro {
+    color: #343a40;
+}
+
 .cta {
     margin-top: 5rem;
     display: flex;

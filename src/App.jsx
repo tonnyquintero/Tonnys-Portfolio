@@ -1,5 +1,7 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, {useContext} from 'react'
+import { ThemeContext } from '../src/context/ThemeContext'
+import Interruptor from './Interruptor';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
@@ -9,28 +11,21 @@ import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-import espFlag from './assets/espFlag.png';
-import enFlag from './assets/enFlag.png';
-import { useTranslation } from 'react-i18next';
+
 
 
 
 const App = () => {
 
-  const [t, i18n] = useTranslation("globals");
+
+  const { darkMode } = useContext(ThemeContext)
 
 
   return (
     <>
-
-      <div className="containerFlag">
-      <button className='btn-bg' onClick={() => i18n.changeLanguage("es")}>
-          <img className='btn-flag' src={espFlag} alt="Español" />
-        </button>
-        <button className='btn-bg' onClick={() => i18n.changeLanguage("en")}>
-          <img className='btn-flag'  src={enFlag} alt="ingles" />
-        </button>
-      </div>
+      <div className={darkMode ? 'containerDark' : 'containerLight'}>
+        <Interruptor />
+      
        <Header />
        <Nav />
        <About />
@@ -40,6 +35,7 @@ const App = () => {
        <Testimonials />
        <Contact />
        <Footer />
+      </div>
     </>
   )
 }

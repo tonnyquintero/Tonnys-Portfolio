@@ -12,8 +12,10 @@
     transition: var(--transition);
 }
 
+
 .experience_container > div:hover {
     background: transparent;
+    color: blueviolet;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
