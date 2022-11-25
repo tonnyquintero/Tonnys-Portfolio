@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    color: white;
 }
 
 .footer_logo {
@@ -15,6 +15,7 @@ footer a {
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+    color: white;
 }
 
 .permalinks {

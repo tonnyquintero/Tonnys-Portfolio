@@ -9,8 +9,8 @@ const CTA = () => {
 
   return (
     <div className='cta'>
-        <a href={TonnyCv} download className='btn'>{t('cta.download')}</a>
-        <a href='#contact' className='btn btn-primary'>{t('cta.letsTalk')}</a>
+        <a href={TonnyCv} download className='btn2'>{t('cta.download')}</a>
+        <a href='#contact' className='btn-primary2'>{t('cta.letsTalk')}</a>
     </div>
   )
 }

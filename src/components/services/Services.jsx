@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React, {useContext} from 'react';
+import { ThemeContext } from '../../context/ThemeContext'
 import {BiCheck} from 'react-icons/bi'
 import './services.css';
 import { useTranslation } from 'react-i18next';
@@ -8,6 +9,8 @@ import { useTranslation } from 'react-i18next';
 const Services = () => {
 
   const [t, i18n] = useTranslation("globals");
+
+  const {darkMode} = useContext(ThemeContext)
 
 
   return (
@@ -19,7 +22,7 @@ const Services = () => {
             <h3>{t("services.web")}</h3>
           </div>
 
-          <ul className='service_list'>
+          <ul className={darkMode ? 'service_list' : 'service_listDark'}>
             <li>
               <BiCheck className='service_list-icon' />
               <p>{t("services.creation")}</p>
@@ -45,7 +48,7 @@ const Services = () => {
             <h3>{t("services.content")}</h3>
           </div>
 
-          <ul className='service_list'>
+          <ul className={darkMode ? 'service_list' : 'service_listDark'}>
             <li>
               <BiCheck className='service_list-icon' />
               <p>{t("services.social")}</p>
@@ -70,7 +73,7 @@ const Services = () => {
             <h3>{t("services.skills")}</h3>
           </div>
 
-          <ul className='service_list'>
+          <ul className={darkMode ? 'service_list' : 'service_listDark'}>
             <li>
               <BiCheck className='service_list-icon' />
               <p>Excel</p>

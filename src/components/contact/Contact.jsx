@@ -30,7 +30,7 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>{t("contact.touch")}</h5>
+      <h5 className='h5Section'>{t("contact.touch")}</h5>
       <h2>{t("contact.me")}</h2>
 
       <div className="container contact_container">
@@ -60,7 +60,7 @@ const Contact = () => {
           <input type="text" name="name" placeholder={t("contact.name")} required />
           <input type="email" name='email' placeholder={t("contact.email")} required />
           <textarea name="message" placeholder={t("contact.message")} rows="7" required></textarea>
-          <button type='submit' className='btn btn-primary'>{t("contact.send")}</button>
+          <button type='submit' className='btn-primary1'>{t("contact.send")}</button>
         </form>
       </div>
       

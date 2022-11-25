@@ -25,12 +25,23 @@
 }
 
 .service_head h3 {
-    color: var(--color-bg);
+    color: white;
     font-size: 1rem;
     text-align: center;
 }
 
 .service_list {
+    padding: 2rem;
+
+}
+
+.service_list:hover {
+    padding: 2rem;
+    color: black;
+
+}
+
+.service_listDark {
     padding: 2rem;
 }
 
@@ -63,5 +74,6 @@
     .services_container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        padding-bottom: 4em;
     }
 }

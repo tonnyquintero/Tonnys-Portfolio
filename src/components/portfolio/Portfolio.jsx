@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React, {useContext} from 'react';
+import { ThemeContext } from '../../context/ThemeContext'
 import './portfolio.css';
 import Store from '../../assets/nextStore.png';
 import Rick from '../../assets/rick2.png';
@@ -63,6 +64,7 @@ const Portfolio = () => {
 
   const [t, i18n] = useTranslation("globals");
 
+  const { darkMode } = useContext(ThemeContext)
 
   return (
     <section id='portfolio'>
@@ -78,7 +80,7 @@ const Portfolio = () => {
                 <div className="portfolio_item-image">
                   <img src={image} alt={title} />
                 </div>
-              <h3>{title}</h3>
+              <h3 className={darkMode ? 'claroH3' : 'oscuroH3'}>{title}</h3>
               <div className="portfolio_item-cta">
                 <a href={gitHub} className='btn' target='_blank' rel='noreferrer'>Git Hub</a>
                 <a href={deploy} className='btn btn-primary' target='_blank' rel='noreferrer'>{t("portfolio.visit")}</a>

@@ -110,14 +110,14 @@ a:hover {
     color: black;
     margin: 0;
     padding-top: 2em;
-    font-size: large;
+    font-size: medium;
   }
   
   .clearH2 {
     color: white;
     margin: 0;
     padding-top: 2em;
-    font-size: large;
+    font-size: medium;
   }  
 
 .containerDark {
@@ -182,9 +182,7 @@ img {
         width: var(--container-width-md);
     }
 
-    section {
-        margin-top: 6rem;
-    }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -194,6 +192,10 @@ img {
 
     .containerFlag {
         left: 75%;
+    }
+
+    section {
+        margin-top: 0;
     }
 
     section > h2 {

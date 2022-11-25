@@ -23,7 +23,9 @@
 .contact_option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
+    color: blueviolet;
 }
+
 
 .contact_option-icon {
     font-size: 1.5rem;
@@ -35,6 +37,35 @@
     display: inline-block;
     font-size: 0.8rem;
     font-weight: bold;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.contact_option a:hover {
+    color: white;
+    background: blueviolet;
+    border: 1px solid blueviolet;
+
+}
+
+.btn-primary1 {
+    width: max-content;
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    color: white;
+    background: blueviolet;
+}
+
+.btn-primary1:hover {
+    background: var(--color-bg-variant);
+    color: white;
+    border: 1px solid var(--color-primary);
 }
 
 form {
@@ -65,5 +96,9 @@ input, textarea {
     .container.contact_container {
         width: var(--container-width-sm);
         
+    }
+
+    .h5Section {
+        padding-top: 3em;
     }
 }

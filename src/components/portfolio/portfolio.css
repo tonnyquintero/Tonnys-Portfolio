@@ -15,6 +15,7 @@
 .portfolio_item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
+    color: blueviolet;
 }
 
 .portfolio_item-image {
@@ -24,11 +25,18 @@
 .portfolio_item h3 {
     margin: 1.2rem 0 2rem;
 }
+
+.portfolio_item h3:hover {
+    margin: 1.2rem 0 2rem;
+}
+
 .portfolio_item-cta {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+
 
 @media screen and (max-width: 1024px) {
    .portfolio_container {
@@ -41,5 +49,6 @@
     .portfolio_container {
         grid-template-columns: 1fr;
         gap: 1rem;
+        padding-bottom: 4em;
     }
 }

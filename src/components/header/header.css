@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 4rem;
+
     overflow: hidden;
 }
 
@@ -19,6 +19,42 @@ header {
 
 .text-light-claro {
     color: #343a40;
+}
+
+.btn2 {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn2:hover {
+    color: white;
+    background: blueviolet;
+}
+
+.btn-primary2 {
+    width: max-content;
+    display: inline-block;
+    background: blueviolet;
+    color: white;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition); 
+}
+
+.btn-primary2:hover {
+    color: blueviolet;
+    background: white;
+    border: 1px solid var(--color-primary);
 }
 
 .cta {
@@ -136,7 +172,7 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 7rem;
+    margin-top: 3rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 0rem 0rem 1.5rem 0rem;
@@ -165,6 +201,7 @@ header {
 @media screen and (max-width: 600px) {
     header {
       height: 100vh;  
+      padding-top: 1em;
     }
     .scroll_down {
         display: none;
@@ -172,12 +209,14 @@ header {
     .header_socials {
         left: -7px;
         z-index: 1;
+        bottom: 165px;
+        width: 34px;
     }
     .me {
         padding: 1rem 0 0;
         left: calc(50% - 10rem);
         width: 20rem;
-        margin-top: 8rem;
+        margin-top: 3rem;
     }
 }
 

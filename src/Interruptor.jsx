@@ -23,9 +23,9 @@ const Interruptor = () => {
         <img src={darkMode ? encendido : apagado} alt='Interruptor' 
         onClick={handleClick} className='switch'>
         </img>
-        <h2 className={darkMode ? 'darkH2' : 'clearH2'}>
-            {darkMode ? 'Apaga' : 'Enciende'} el interruptor para 
-             {darkMode ? ' modo Oscuro' : ' modo Claro'}
+        <h2 className={darkMode ? 'darkH2' : 'clearH2'}> ⬅️     
+            
+             {darkMode ? '   Dark Mode 🔦' : '   Ligth Mode 💡'}
         </h2>
 
         <div className="containerFlag">

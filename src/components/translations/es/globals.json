@@ -1,4 +1,8 @@
 {
+    "interruptor": {
+        "turnOn": "turnOn",
+        "turnOff": "turnOff"
+    },
     "Header": {
         "hello-world": "Hola Soy",
         "ocupation": "Desarrollador de Software",
