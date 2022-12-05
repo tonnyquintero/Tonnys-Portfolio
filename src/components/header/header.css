@@ -58,7 +58,7 @@ header {
 }
 
 .cta {
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -167,9 +167,9 @@ header {
 }
 
 .me {
-    background: linear-gradient(#343a40, transparent);
+    background: linear-gradient(blueviolet, black);
     width: 22rem;
-    height: 30rem;
+    height: 24rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 3rem;
@@ -179,7 +179,7 @@ header {
 }
 
 .me img {
-    height: 71%;
+    height: 110%;
 }
 
 .scroll_down {
@@ -200,7 +200,7 @@ header {
 
 @media screen and (max-width: 600px) {
     header {
-      height: 100vh;  
+      height: 90vh;
       padding-top: 1em;
     }
     .scroll_down {
@@ -217,6 +217,9 @@ header {
         left: calc(50% - 10rem);
         width: 20rem;
         margin-top: 3rem;
+    }
+    .cta { 
+        margin-top: 2rem;
     }
 }
 

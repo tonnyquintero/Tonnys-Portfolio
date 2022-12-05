@@ -19,24 +19,28 @@ const Interruptor = () => {
     }
 
   return (
-    <div className='interruptor'>
-        <img src={darkMode ? encendido : apagado} alt='Interruptor' 
-        onClick={handleClick} className='switch'>
-        </img>
-        <h2 className={darkMode ? 'darkH2' : 'clearH2'}> ⬅️     
-            
-             {darkMode ? '   Dark Mode 🔦' : '   Ligth Mode 💡'}
-        </h2>
-
-        <div className="containerFlag">
-      <button className='btn-bg' onClick={() => i18n.changeLanguage("es")}>
-          <img className='btn-flag' src={espFlag} alt="Español" />
-        </button>
-        <button className='btn-bg' onClick={() => i18n.changeLanguage("en")}>
-          <img className='btn-flag'  src={enFlag} alt="ingles" />
-        </button>
+    <>
+      <div className="masterHeader">
+        <div className='interruptor'>
+          <img src={darkMode ? encendido : apagado} alt='Interruptor' 
+          onClick={handleClick} className='switch'>
+          </img>
+          <h2 className={darkMode ? 'darkH2' : 'clearH2'}> ⬅️     
+              
+              {darkMode ? '   Dark Mode 🔦' : '   Ligth Mode 💡'}
+          </h2>
       </div>
-    </div>
+
+          <div className="containerFlag">
+        <button className='btn-bg' onClick={() => i18n.changeLanguage("es")}>
+            <img className='btn-flag' src={espFlag} alt="Español" />
+          </button>
+          <button className='btn-bg' onClick={() => i18n.changeLanguage("en")}>
+            <img className='btn-flag'  src={enFlag} alt="ingles" />
+          </button>
+        </div>
+      </div>
+    </>
   )
 }
 

@@ -130,14 +130,18 @@ a:hover {
 
 .containerFlag {
 
-
-    position: fixed;
     display: flex;
+    position: absolute;
     gap: 10px;
     justify-content: flex-end;
     z-index: 1;
-    left: 89%;
-    padding-top: 1rem;
+    left: 90%;
+    top: 3%
+
+}
+
+.masterHeader {
+    display: flex;
 }
 
 .btn-bg {
@@ -201,4 +205,19 @@ img {
     section > h2 {
         margin-bottom: 2rem;
     }
+
+    .containerFlag {
+
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+
+    }
+    .darkH2 {
+        padding-right: 3.5em;
+      }
+      
+      .clearH2 {
+        padding-right: 3.5em;
+      }  
 }
