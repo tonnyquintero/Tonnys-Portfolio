@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 
 const Interruptor = () => {
 
-  const [i18n] = useTranslation("globals");
+  const [t, i18n] = useTranslation("globals");
 
 
     const { darkMode, ToggleDarkMode } = useContext(ThemeContext)
