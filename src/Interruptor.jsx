@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 
 const Interruptor = () => {
 
+  // eslint-disable-next-line no-unused-vars
   const [t, i18n] = useTranslation("globals");
 
 
