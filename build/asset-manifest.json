@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.daa62bd3.css",
-    "main.js": "/static/js/main.560e523c.js",
+    "main.css": "/static/css/main.e9c29360.css",
+    "main.js": "/static/js/main.5b43ff9e.js",
     "static/media/toscana.png": "/static/media/toscana.dac5323f0aaa0ea08a0f.png",
     "static/media/tonnysTravel.png": "/static/media/tonnysTravel.3945423ec325769f8a69.png",
     "static/media/nextStore.png": "/static/media/nextStore.bd25e9bf3c84ca79d2d3.png",
     "static/media/myRestaurante.png": "/static/media/myRestaurante.32054bef274de940e8b7.png",
+    "static/media/videoJuego.png": "/static/media/videoJuego.6ccdc4a45a88f745610b.png",
     "static/media/thinkb-removebg.png": "/static/media/thinkb-removebg.2a0a8f9f55859e371863.png",
+    "static/media/susMedicosPage.png": "/static/media/susMedicosPage.95d891a0abaccba28d43.png",
     "static/media/rick2.png": "/static/media/rick2.35e4854f28ec668adcb9.png",
-    "static/media/fache.png": "/static/media/fache.ccf1f3ac4505b79b0b8d.png",
+    "static/media/profile.png": "/static/media/profile.b97e895b70dae5a7853c.png",
+    "static/media/profile2.png": "/static/media/profile2.a64e5c350614061c523c.png",
     "static/media/taskMachine.png": "/static/media/taskMachine.30dfede977522fd7f91b.png",
     "static/media/explorer2.jpg": "/static/media/explorer2.d53582daf61621252949.jpg",
     "static/media/tonnysCv.pdf": "/static/media/tonnysCv.293d772df89602e9a45b.pdf",
@@ -16,11 +19,11 @@
     "static/media/enFlag.png": "/static/media/enFlag.b16d36359ade77ab8482.png",
     "static/media/nextjs2.png": "/static/media/nextjs2.8916cc352be51a20f976.png",
     "index.html": "/index.html",
-    "main.daa62bd3.css.map": "/static/css/main.daa62bd3.css.map",
-    "main.560e523c.js.map": "/static/js/main.560e523c.js.map"
+    "main.e9c29360.css.map": "/static/css/main.e9c29360.css.map",
+    "main.5b43ff9e.js.map": "/static/js/main.5b43ff9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.daa62bd3.css",
-    "static/js/main.560e523c.js"
+    "static/css/main.e9c29360.css",
+    "static/js/main.5b43ff9e.js"
   ]
 }
