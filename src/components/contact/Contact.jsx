@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import React, {useRef} from 'react';
+import React, {useRef, useContext} from 'react';
+import { ThemeContext } from '../../context/ThemeContext'
 import {MdOutlineEmail} from 'react-icons/md';
 import {RiMessengerLine} from 'react-icons/ri';
 import {BsWhatsapp} from 'react-icons/bs';
@@ -12,6 +13,7 @@ const Contact = () => {
 
   const [t, i18n] = useTranslation("globals");
 
+  const {darkMode} = useContext(ThemeContext)
 
   const form = useRef();
   
@@ -56,14 +58,22 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone=573234257398" target="_blank" rel='noreferrer'>{t("contact.sendA")}</a>
            </article>
         </div>
-        <form ref={form} onSubmit={sendEmail} >
-          <input type="text" name="name" placeholder={t("contact.name")} required />
-          <input type="email" name='email' placeholder={t("contact.email")} required />
-          <textarea name="message" placeholder={t("contact.message")} rows="7" required></textarea>
+        <div className={darkMode ? "box2" : "box"}>
+        <form ref={form} onSubmit={sendEmail} className={darkMode ? "form2" : "form"}>
+            <h2>Hablemos</h2>
+            <div classNam="inputBox">
+                <input type="text" name="name" placeholder={t("contact.name")} required="required" />
+                <i></i>
+            </div>
+            <div classNam="inputBox">
+                <input type="email" name='email' placeholder={t("contact.email")} required="required" />
+                <i></i>
+            </div>
+          <textarea classNam="inputBox" name="message" placeholder={t("contact.message")} rows="7" required></textarea>
           <button type='submit' className='btn-primary1'>{t("contact.send")}</button>
         </form>
+    </div>
       </div>
-      
     </section>
   )
 }

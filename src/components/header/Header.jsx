@@ -2,7 +2,8 @@
 import React, {useContext}  from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 import CTA from './CTA';
-import Me from '../../assets/fache.png';
+import Me from '../../assets/profile.png';
+import MeDark from '../../assets/profile2.png'
 import HeaderSocials from './HeaderSocials';
 import './header.css';
 import { useTranslation } from 'react-i18next';
@@ -25,7 +26,7 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="me">
-          <img src={Me} alt='Profile pic' />
+          <img src={darkMode ? Me : MeDark} alt='Profile pic' />
         </div>
 
         <a href='#contact' className='scroll_down'>{t('Header.scroll')}</a>
