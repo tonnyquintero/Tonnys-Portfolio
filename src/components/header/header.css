@@ -221,6 +221,9 @@ header {
     .cta { 
         margin-top: 2rem;
     }
+    .h1Nombre {
+        font-size: 1.5rem;
+    }
 }
 
 

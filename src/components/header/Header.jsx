@@ -20,7 +20,7 @@ const Header = () => {
       <div className={darkMode ? 'container claro' : 'container header_container'}>
 
         <h5>{t('Header.hello-world')}</h5>
-        <h1>Anthony Quintero</h1>
+        <h1 className='h1Nombre'>Anthony Quintero</h1>
         <h5 className={darkMode ? 'text-light-claro' : 'text-light'}>{t('Header.ocupation')}</h5>
         <CTA />
         <HeaderSocials />
