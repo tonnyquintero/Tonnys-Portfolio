@@ -76,11 +76,11 @@ const Services = () => {
           <ul className={darkMode ? 'service_list' : 'service_listDark'}>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Excel</p>
+              <p>Excel Advanced</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Photoshop</p>
+              <p>Da Vinci Resolve</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />

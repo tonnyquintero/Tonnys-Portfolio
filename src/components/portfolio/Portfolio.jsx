@@ -58,13 +58,6 @@ const data = [
     gitHub: 'https://github.com/tonnyquintero/nextstore',
     deploy: 'https://nextstore-neon.vercel.app/'
   },
-  {
-    id: 7,
-    title: 'Rick and Morty Api',
-    image: Rick,
-    gitHub: 'https://github.com/tonnyquintero/Rick-and-Morty-Api',
-    deploy: 'https://rick-and-morty-api-pearl-sigma.vercel.app/'
-  },
   
 ]
 

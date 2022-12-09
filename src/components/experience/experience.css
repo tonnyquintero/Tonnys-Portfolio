@@ -1,3 +1,7 @@
+#experience {
+    margin-top: 0;
+}
+
 .experience_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -5,7 +9,6 @@
 }
 
 .experience_container > div {
-    background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -42,6 +45,85 @@
     color: var(--color-primary);
 }
 
+/*Aqui el cubo */
+
+.cube2 {
+
+    width: 300px;
+    height: 300px;
+    transform: translate(38%, -8px);
+}
+
+.cube2 div {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: animate2 6s linear infinite;
+    scale: 0.5;
+}
+
+@keyframes animate2 {
+    0% {
+    transform: rotateX(-20deg) rotateY(0deg);
+    }
+    100% {
+    transform: rotateX(-20deg) rotateY(360deg);
+    }
+}
+
+.cube:hover ~ .cube2 .big span {
+    background: transparent;
+    border: 10px solid #fff;
+    filter: drop-shadow(0 0 20px #fff);
+}
+
+.cube2 .big span {
+    position: absolute;
+    width:  300px;
+    height: 300px;
+    background: var(--clr);
+    transform: rotateY(calc(90deg * var(--i))) 
+    translateZ(150px);
+    transform-style: preserve-3d;
+    border: 10px solid blueviolet;
+    filter: drop-shadow(0 0 10px blueviolet);
+    transition: 0.5s;
+}
+
+.cube2 .big span.top { 
+    transform: rotateX(90deg) translateZ(150px);
+ }
+
+.cube2 .big span.top::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: translateZ(-350px);
+    background: rgba(0, 0, 0, 0.35);
+
+} 
+
+/* Hasta aqui el cubo*/
+
+.back-responsive {
+    display: none;
+}
+
+.front {
+    color: blueviolet;
+    padding-left: 12em;
+    font-weight: bolder;
+}
+
+.back {
+    padding-left: 11em;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
 @media screen and (max-width: 1024px) {
     .experience_container {
         grid-template-columns: 1fr;
@@ -65,4 +147,24 @@
         width: 100%;
         padding: 2rem 1rem;
     }
+    .cube2 {
+
+        transform: translate(1%, -8px);
+    }
+    .back {
+        display: none;
+    }
+
+    .back-responsive {
+        display: block;
+        color: blueviolet;
+        padding-left: 8em;
+        font-weight: bolder;
+    }
+
+    .front {
+        color: blueviolet;
+        padding-left: 8em;
+    }
+
 }
