@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dbf8c27.css",
-    "main.js": "/static/js/main.e3f86429.js",
+    "main.css": "/static/css/main.04618c74.css",
+    "main.js": "/static/js/main.711df779.js",
     "static/media/toscana.png": "/static/media/toscana.dac5323f0aaa0ea08a0f.png",
     "static/media/tonnysTravel.png": "/static/media/tonnysTravel.3945423ec325769f8a69.png",
     "static/media/nextStore.png": "/static/media/nextStore.bd25e9bf3c84ca79d2d3.png",
@@ -16,14 +16,17 @@
     "static/media/explorer2.jpg": "/static/media/explorer2.d53582daf61621252949.jpg",
     "static/media/tonnysCv.pdf": "/static/media/tonnysCv.293d772df89602e9a45b.pdf",
     "static/media/solidity2.jpg": "/static/media/solidity2.db4690666293a4c13f45.jpg",
+    "static/media/postgre3.png": "/static/media/postgre3.8668195a5c192d91e59d.png",
     "static/media/enFlag.png": "/static/media/enFlag.b16d36359ade77ab8482.png",
+    "static/media/react3.png": "/static/media/react3.bbfb53578a8bef742f91.png",
     "static/media/nextjs2.png": "/static/media/nextjs2.8916cc352be51a20f976.png",
+    "static/media/html3.png": "/static/media/html3.414b0495da4cf48fef63.png",
     "index.html": "/index.html",
-    "main.6dbf8c27.css.map": "/static/css/main.6dbf8c27.css.map",
-    "main.e3f86429.js.map": "/static/js/main.e3f86429.js.map"
+    "main.04618c74.css.map": "/static/css/main.04618c74.css.map",
+    "main.711df779.js.map": "/static/js/main.711df779.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dbf8c27.css",
-    "static/js/main.e3f86429.js"
+    "static/css/main.04618c74.css",
+    "static/js/main.711df779.js"
   ]
 }
