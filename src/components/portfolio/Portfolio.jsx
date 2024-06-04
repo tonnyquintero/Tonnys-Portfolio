@@ -5,7 +5,7 @@ import './portfolio.css';
 import Store from '../../assets/nextStore.png';
 import Rick from '../../assets/rick2.png';
 import Task from '../../assets/taskMachine.png';
-import Travel from '../../assets/tonnysTravel.png';
+import Travel from '../../assets/tonnysTravelpng.png';
 import susMedicos from '../../assets/susMedicosPage.png';
 import videoJuego from '../../assets/videoJuego.png';
 import Toscana from '../../assets/toscana.png';
@@ -18,10 +18,10 @@ import { useTranslation } from 'react-i18next';
 const data = [
   {
     id: 1,
-    title: 'Tonnys Travel',
+    title: 'Proinsa Web Site',
     image: Travel,
-    gitHub: 'https://github.com/tonnyquintero/tonnys-travel',
-    deploy: 'https://tonnys-travel.netlify.app/'
+    gitHub: 'https://github.com/tonnyquintero/Proinsa-web-page',
+    deploy: 'https://www.clinicaproinsa.com/'
   },
   {
     id: 2,
