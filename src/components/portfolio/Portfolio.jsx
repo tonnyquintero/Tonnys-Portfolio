@@ -21,7 +21,7 @@ const data = [
     title: 'Proinsa Web Site',
     image: Travel,
     gitHub: 'https://github.com/tonnyquintero/Proinsa-web-page',
-    deploy: 'https://www.clinicaproinsa.com/'
+    deploy: 'https://proinsa-web-page-git-main-tonnyquintero.vercel.app/'
   },
   {
     id: 2,
@@ -39,14 +39,14 @@ const data = [
   },
   {
     id: 4,
-    title: 'Video Juego con JavaScript',
+    title: 'Video game with JavaScript',
     image: videoJuego,
     gitHub: 'https://github.com/tonnyquintero/js-videoGame',
     deploy: 'https://tonnyquintero.github.io/js-videoGame/'
   },
   {
     id: 5,
-    title: 'Tu Restaurante App',
+    title: 'Your Restaurant App',
     image: restaurante,
     gitHub: 'https://github.com/tonnyquintero/smart-menu',
     deploy: 'https://smart-menu-omega.vercel.app/'
